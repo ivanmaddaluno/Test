@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#141e30), to(#243b55));
+  background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
+  font-family: Quicksand;
+  color: whitesmoke;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+main .input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .input-box input {
+  margin-bottom: 1.5rem;
+  max-width: 50%;
+  width: 1000px;
+  height: 30px;
+}
+
+main .input-box .suggestions {
+  display: none;
+  max-height: 400px;
+  padding: 1rem;
+}
+
+main .input-box ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+main .input-box ul li {
+  overflow: auto;
+  border: 2px solid whitesmoke;
+  padding: 0.5rem;
+  width: 90%;
+  cursor: pointer;
+  margin: 1rem auto;
+}
+/*# sourceMappingURL=style.css.map */
